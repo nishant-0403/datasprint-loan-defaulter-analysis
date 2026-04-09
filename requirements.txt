@@ -1,0 +1,17 @@
+pandas
+numpy
+scikit-learn
+xgboost
+lightgbm
+category_encoders
+shap
+optuna
+matplotlib
+seaborn
+fastapi
+uvicorn[standard]
+streamlit
+requests
+python-multipart
+pydantic
+optuna
