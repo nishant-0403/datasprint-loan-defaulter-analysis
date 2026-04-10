@@ -615,7 +615,7 @@ if best_model_name == "LR":
     shap_raw    = explainer.shap_values(best_X_val)
 else:
     print(f"\nComputing SHAP values (TreeExplainer on {best_model_name})...")
-    explainer   = shap.TreeExplainer(best_model_obj, feature_perturbation="tree_path_dependent")
+    explainer   = shap.TreeExplainer(best_model_obj)
     shap_raw    = explainer.shap_values(best_X_val)
 
 # Normalise to a single 2-D float64 array (n_samples × n_features)

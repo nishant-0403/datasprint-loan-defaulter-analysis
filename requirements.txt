@@ -1,3 +1,4 @@
+# Core ML (already installed from training)
 pandas
 numpy
 scikit-learn
@@ -5,13 +6,21 @@ xgboost
 lightgbm
 category_encoders
 shap
-optuna
+
+# Streamlit
+streamlit
 matplotlib
 seaborn
-fastapi
-uvicorn[standard]
-streamlit
+openpyxl
+
+# Free HTTP (for HuggingFace Inference API — no key needed for basic use)
 requests
-python-multipart
-pydantic
-optuna
+
+# Free PDF generation
+reportlab
+
+# Free translation — no API key needed
+googletrans==4.0.0-rc1
+
+# Free audio TTS — no API key needed
+gtts
